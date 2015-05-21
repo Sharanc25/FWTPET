@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{SenthilKumaran2013}
+S.~{Senthil Kumaran}, S.~Muthukumaran, C.~{Chandrasekhar Reddy},
+  \href{http://doi.wiley.com/10.1111/j.1747-1567.2010.00700.x}{{Effect of tube
+  preparations on joint strength in friction welding of tube-to-tube plate
+  using an external tool process}}, Experimental Techniques 37~(3) (2013)
+  24--32.
+\newblock \href {http://dx.doi.org/10.1111/j.1747-1567.2010.00700.x}
+  {\path{doi:10.1111/j.1747-1567.2010.00700.x}}.
+\newline\urlprefix\url{http://doi.wiley.com/10.1111/j.1747-1567.2010.00700.x}
+
+\end{thebibliography}
