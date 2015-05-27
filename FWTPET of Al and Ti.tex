@@ -120,10 +120,12 @@ Highest performance, concurrent weight and cost reduction has become more and mo
 The base materials used for FWTPET process were AA6061-T651 plates and Titanium Grade V (Ti-6Al-4V) tubes. The external tool used for welding was made of Tungsten alloy having 29 mm shoulder diameter and 12.5 mm pin diameter. The chemical composition of AA6061 plate, Ti-6Al-4V tube and Tungsten Alloy Tool is given in Table~\ref{table:base-material-composition}.
 \par 
 AA6061 plates of 6 mm thickness were cut into 50 x 50 mm squares. A hole of 19 mm diameter was drilled at the center of the plate. Ti-6Al-4V tube of 19 mm outer diameter and 14 mm inner diameter with two tube profiles, holes and petals were used for welding. The details about the tube profile are given below.
-\begin{enumerate}[1.]
-\item Holes Profile : Holes of 2 mm diameter were drilled at equal intervals along the circumference of the Ti-6Al-4V tubes of height 20 mm. The holes were made at a depth of 5 mm from top of the tube.
-\item Petals Profile : Slots of 10 mm depth and 2 mm width were made at equal intervals along the circumference of the Ti-6Al-4V tubes of height 30 mm. The slots were then formed into petals using a suitable tool.
-\end{enumerate}
+\begin{description}
+\item [Holes Profile] \hfill \\ 
+Holes of 2 mm diameter were drilled at equal intervals along the circumference of the Ti-6Al-4V tubes of height 20 mm. The holes were made at a depth of 5 mm from top of the tube.
+\item [Petals Profile] \hfill \\
+Slots of 10 mm depth and 2 mm width were made at equal intervals along the circumference of the Ti-6Al-4V tubes of height 30 mm. The slots were then formed into petals using a suitable tool.
+\end{description}
 
 \begingroup
 \renewcommand*{\arraystretch}{1.5}
@@ -231,13 +233,6 @@ For our current work, $\mu$ was taken as 0.35 for all the welds. Table \ref{tabl
 }
 \end{table*}
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth,keepaspectratio]{images/Total HI.jpg}
-\caption{Total Heat Input during FWTPET}
-\label{fig:total-heat-input}
-\end{figure}
-
 \subsection{Weld Strength}
 \label{subsec:Weld Strength}
  The fracture load of the weld joint when divided by the area of the weld gives the weld strength \ref{eq:weld-strength}. PST was designed so that the welded specimens fail exactly at the joint interface. After PST, SEM images of the fractured surfaces were taken. Fractography images show river-flow pattern, which indicates shear failure.
@@ -254,12 +249,7 @@ where :\\
 
 The weld area of FWTPET joints is equal to the lateral surface area of the cylindrical tube, where the height is equal to the thickness of the plate. In our case, due to the 2 mm plunge depth on the plate surface, the height of the weld was taken as 4 mm. The weld area calculated was circa 238.76 mm$^{2}$. For all speeds, the petals profile showed higher joint strength compared to the holes profile. Values for different tube profiles are given in Fig. \ref{fig:weld-strength}. From the table, it is clear that tube with petals is having high shear strength compared to other to profiles.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth,keepaspectratio]{images/Strength.jpg}
-\caption{Fracture load and Weld Strength of FWTPET welds}
-\label{fig:weld-strength}
-\end{figure}
+
 
 \subsection{X-Ray Diffraction Analysis}
 \label{subsec:XRD-Results}
@@ -288,12 +278,7 @@ where :\\
 The dislocation density at the weld interface was studied using modified Williamson-hall equation.
 XRD plot at the weld interface for welds made with Tube with petals is shown in Fig\ref{fig:xrd-plot}. From the XRD plot, the presence of TiAl$_{3}$ intermetallic formation was observed. Formation of intermetallic compounds is detrimental to joint strength. Titanium aluminide has three major intermetallic compounds: γ TiAl, α Ti$_{3}$Al and TiAl$_{3}$. Although these intermetallics have very good mechanical and thermal properties, they have very low ductility [6]. Therefore, the presence of Titanium aluminides at the interface might decrease the joint strength.
 
-\begin{figure*}[H]
-\centering
-\includegraphics[width=\textwidth,keepaspectratio]{images/xrd.png}
-\caption{XRD - Plot}
-\label{fig:xrd-plot}
-\end{figure*}
+
 
 \subsection{Fractography}
 \label{subsec:Fractography}
@@ -309,7 +294,19 @@ the SEM images (Fig. 16 b).
 \item XRD analysis showed formation of TiAl$_{3}$ at the interface. Intermetallic compounds at the interface were less when compared to traditional fusion welding processes which is due to the reduction in heat generation during the welding process.
 \end{enumerate}
 
-\section{images}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Hides all Images %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\iffalse
+
+\begin{figure*}[H]
+\centering
+\includegraphics[width=\textwidth,keepaspectratio]{images/xrd.png}
+\caption{XRD - Plot}
+\label{fig:xrd-plot}
+\end{figure*}
+
+
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth,keepaspectratio]{images/welding-set-up.png}
@@ -317,7 +314,20 @@ the SEM images (Fig. 16 b).
 \label{fig:xrd-plot}
 \end{figure}
 
-\iffalse
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth,keepaspectratio]{images/Total HI.jpg}
+\caption{Total Heat Input during FWTPET}
+\label{fig:total-heat-input}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth,keepaspectratio]{images/Strength.jpg}
+\caption{Fracture load and Weld Strength of FWTPET welds}
+\label{fig:weld-strength}
+\end{figure}
 
 \begin{figure}[!htbp]
 \centering
