@@ -2,5 +2,5 @@
 *.tif
 *.tiff
 images/for editing
-images/for uploading
+images/for uploading/*.*
 images/graphs
