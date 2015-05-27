@@ -121,8 +121,10 @@ The base materials used for FWTPET process were AA6061-T651 plates and Titanium 
 \par 
 AA6061 plates of 6 mm thickness were cut into 50 x 50 mm squares. A hole of 19 mm diameter was drilled at the center of the plate. Ti-6Al-4V tube of 19 mm outer diameter and 14 mm inner diameter with two tube profiles, holes and petals were used for welding. The details about the tube profile are given below.
 \begin{description}
-\item [Holes Profile] Holes of 2 mm diameter were drilled at equal intervals along the circumference of the Ti-6Al-4V tubes of height 20 mm. The holes were made at a depth of 5 mm from top of the tube.
-\item [Petals Profile] Slots of 10 mm depth and 2 mm width were made at equal intervals along the circumference of the Ti-6Al-4V tubes of height 30 mm. The slots were then formed into petals using a suitable tool.
+\item [Holes Profile] \hfill \\ 
+Holes of 2 mm diameter were drilled at equal intervals along the circumference of the Ti-6Al-4V tubes of height 20 mm. The holes were made at a depth of 5 mm from top of the tube.
+\item [Petals Profile] \hfill \\
+Slots of 10 mm depth and 2 mm width were made at equal intervals along the circumference of the Ti-6Al-4V tubes of height 30 mm. The slots were then formed into petals using a suitable tool.
 \end{description}
 
 \begingroup
