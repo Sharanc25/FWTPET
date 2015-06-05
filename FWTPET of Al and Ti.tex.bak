@@ -78,7 +78,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
          
 \begin{abstract}
-Using a new solid state welding process, Friction welding of tube to tube plate using an external tool (FWTPET), Ti-6Al-4V tube and AA6061-T6 tube plate were welded together. The welding was carried out at 4 different tool rotational speeds (550, 700, 900 and 1100) with two different tube profiles (Holes and Petals). The effect of tube profile on joint strength of the welded samples was measured using an in-house developed test procedure named ``Plunge Shear Test''. Highest weld strength of 192.03 MPa was observed in petals profile welded at 1100 rpm and lowest weld strength of 95.76 MPa was observed for holes profile welded at 550 rpm. Macro and Micro structural studies were done on the welded samples. SEM Fractography studies were carried out on the fractured surfaces after Plunge Shear Test. XRD analysis was done to identify the formation of intermetallics at the joint interface.
+Using a new solid state welding process---Friction welding of tube to tube plate using an external tool (FWTPET), Ti-6Al-4V tube and AA6061-T6 tube plate were welded together. The welding was carried out at 4 different tool rotational speeds (550, 700, 900 and 1100) with two different tube profiles (Holes and Petals). The effect of tube profile on joint strength of the welded samples was measured using an in-house developed test procedure named ``Plunge Shear Test''. Highest weld strength of 192.03 MPa was observed in petals profile welded at 1100 rpm and lowest weld strength of 95.76 MPa was observed for holes profile welded at 550 rpm. Macro and Micro structural studies were done on the welded samples. SEM Fractography studies were carried out on the fractured surfaces after Plunge Shear Test. XRD analysis was done to identify the formation of intermetallics at the joint interface.
 \end{abstract}
 
 \begin{keyword}
@@ -301,7 +301,7 @@ the SEM images (Fig. 16 b).
 
 \begin{figure*}[H]
 \centering
-\includegraphics[width=\textwidth,keepaspectratio]{images/xrd.png}
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/"xrd".png}
 \caption{XRD - Plot}
 \label{fig:xrd-plot}
 \end{figure*}
@@ -309,7 +309,7 @@ the SEM images (Fig. 16 b).
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=\textwidth,keepaspectratio]{images/welding-set-up.png}
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/"welding-set-up".png}
 \caption{XRD - Plot}
 \label{fig:xrd-plot}
 \end{figure}
